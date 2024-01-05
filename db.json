@@ -1,0 +1,69 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Thịnh",
+      "image": "/user1.png",
+      "permission": "staff",
+      "status": 1,
+      "createdAt": "543546",
+      "updatedAt": "343243"
+    },
+    {
+      "id": 2,
+      "name": "Lân",
+      "image": "/user2.png",
+      "permission": "staff",
+      "status": 1,
+      "createdAt": "543546",
+      "updatedAt": "343243"
+    },
+    {
+      "id": 3,
+      "name": "Nam",
+      "image": "/user3.png",
+      "permission": "staff",
+      "status": 1,
+      "createdAt": "543546",
+      "updatedAt": "343243"
+    },
+    {
+      "id": 4,
+      "name": "Hưng",
+      "image": "/user4.png",
+      "permission": "staff",
+      "status": 1,
+      "createdAt": "543546",
+      "updatedAt": "343243"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Noodle",
+      "image": "/category1.png"
+    },
+    {
+      "id": 2,
+      "name": "Noodle",
+      "image": "/category2.png"
+    },
+    {
+      "id": 3,
+      "name": "Noodle",
+      "image": "/category3.png"
+    },
+    {
+      "id": 4,
+      "name": "Noodle",
+      "image": "/category4.png"
+    },
+    {
+      "name": "Thịnh Test",
+      "image": "/category1.png",
+      "createdAt": 1704445630402,
+      "updatedAt": 1704445630402,
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pos-json-server",
+  "version": "1.0.0",
+  "description": "fake api pos store staff",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "edric dang",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

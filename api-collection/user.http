@@ -1,0 +1,37 @@
+@baseUrl = http://localhost:3000/api
+
+# User
+
+# @name getAllUser
+GET {{baseUrl}}/user
+
+###
+
+# @name addNewUser
+POST {{baseUrl}}/user
+Content-Type: application/json
+
+{
+    "name": "Thịnh Test",
+    "image": "/user1.png",
+    "permission": "staff",
+    "status": 1
+}
+
+###
+
+# @name updateUser
+PATCH  {{baseUrl}}/user/5
+Content-Type: application/json
+
+{
+    "name": "Huy",
+    "image": "/user1.png",
+    "permission": "staff",
+    "status": 1
+}
+
+###
+
+# @name deleteUser
+DELETE   {{baseUrl}}/user/5

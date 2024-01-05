@@ -1,0 +1,36 @@
+@baseUrl = http://localhost:3000/api
+@resourceName = category
+
+# Category
+
+# @name getAllCategory
+GET {{baseUrl}}/{{resourceName}}?name=Thịnh Test
+
+###
+
+# @name addNewCategory
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "name": "Thịnh Test",
+    "image": "/{{resourceName}}1.png"
+}
+
+###
+
+# @name updateCategory
+PATCH  {{baseUrl}}/{{resourceName}}/5
+Content-Type: application/json
+
+{
+    "name": "Huy",
+    "image": "/{{resourceName}}1.png",
+    "permission": "staff",
+    "status": 1
+}
+
+###
+
+# @name deleteCategory
+DELETE   {{baseUrl}}/{{resourceName}}/6

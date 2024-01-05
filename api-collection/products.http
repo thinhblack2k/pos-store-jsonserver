@@ -1,0 +1,38 @@
+@baseUrl = http://localhost:3000/api
+@resourceName = products
+
+# Product
+
+# @name getAllProduct
+GET {{baseUrl}}/{{@resourceName}}
+
+###
+
+# @name addNewProduct
+POST {{baseUrl}}/{{@resourceName}}
+Content-Type: application/json
+
+{
+    "name": "Thịnh Test",
+    "image": "/{{@resourceName}}1.png",
+    "permission": "staff",
+    "status": 1
+}
+
+###
+
+# @name updateProduct
+PATCH  {{baseUrl}}/{{@resourceName}}/5
+Content-Type: application/json
+
+{
+    "name": "Huy",
+    "image": "/{{@resourceName}}1.png",
+    "permission": "staff",
+    "status": 1
+}
+
+###
+
+# @name deleteProduct
+DELETE   {{baseUrl}}/{{@resourceName}}/5
